@@ -12,8 +12,8 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 ┏┉━━━━━━━━━━━❏
 ┆ *YOUTUBE MP3*
 ├┈┈┈┈┈┈┈┈┈┈┈
-┆• *Judul:* ${title}
-│• *Type:* MP3
+┆• *🎋Judul:* ${title}
+│• *🌀Type:* MP3
 ┆• *📥 Ukuran File:* ${filesizeF}
 └❏
 `.trim(), m, null, {
