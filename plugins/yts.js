@@ -5,10 +5,10 @@ let handler = async (m, { text }) => {
   let teks = results.all.map(v => {
     switch (v.type) {
       case 'video': return `
-*${v.title}* (${v.url})
-Duration: ${v.timestamp}
-Uploaded ${v.ago}
-${v.views} views
+*🍄${v.title}* (${v.url})
+❄️Duration: ${v.timestamp}
+🍥Uploaded ${v.ago}
+🚀${v.views} views
       `.trim()
       case 'channel': return `
 *${v.name}* (${v.url})
