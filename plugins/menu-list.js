@@ -15,7 +15,7 @@ let { perfomance } = require('perf_hooks')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
-  ⬣───「 *DASHBOARD* 」───⬣
+  ⬣────「  *DASHBOARD*  」───⬣
   
 ┌─── 「 TODAY 」───⬣
 │☂︎ *Days:* %week %weton
@@ -238,11 +238,11 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
             sections: [
               {
                 "rows": [{
-                  "title": `OWNER BOT`,
+                  "title": `[🎃] OWNER BOT`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": "INFO BOT",
+                  "title": "[📮] INFO BOT",
                   "description": "Menampilkan Menu Info",
                   "rowId": `${_p}? info`
                 }],
