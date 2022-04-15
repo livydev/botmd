@@ -13,9 +13,9 @@ let esce = `
 Hai ${ye} Lagi Nyari Sc Ya? 
 
 Nih Link Sc Nya Dibawah :
-https://youtu.be/AqIPxerS7XI
+https://yandex.com/
 
-_*Jangan Lupa Di Subscribe*_`
+_*Jangan Comli Lagi Ramadhan*_`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
